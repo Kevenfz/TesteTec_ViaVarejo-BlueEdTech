@@ -144,8 +144,12 @@ function App() {
             <div className="products-list">
               <p className="title-extract">Mercadoria</p>
               <div className="separator-title"></div>
-              <span className="data-extract">{typeSelect === "sell" ? "+ " : "- "} {count.product}</span>
-              <span className="data-extract">{typeSelect === "sell" ? "+ " : "- "} {count.product}</span>
+              <span className="data-extract">
+                {typeSelect === "sell" ? "+ " : "- "} {count.product}
+              </span>
+              <span className="data-extract">
+                {typeSelect === "sell" ? "+ " : "- "} {count.product}
+              </span>
             </div>
 
             <div className="valors-list">
@@ -158,8 +162,10 @@ function App() {
 
           <div className="extract-result">
             <p className="title-extract">Total</p>
-            <p className="data-extract">R$: {extract.valor}</p>
-            <p className="title-extract">[Lucro]</p>
+            <div className="status-extract">
+              <p className="data-extract">R$: {extract.valor}</p>
+              <span className="title-status-extract">{count.valor <= 0 ? '[Prejuízo]' : '[Lucro]'}</span>
+            </div>
           </div>
         </section>
       </section>

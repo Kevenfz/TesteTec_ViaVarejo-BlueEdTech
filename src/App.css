@@ -172,3 +172,14 @@ body,
   font-size: 1.1rem;  
 
 }
+
+.status-extract {
+  display: flex;
+  flex-direction: column;
+  gap: -1rem;
+}
+
+.title-status-extract {
+  font-size: .8rem;
+  margin-top: -1rem;
+}
