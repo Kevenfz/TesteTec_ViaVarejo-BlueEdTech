@@ -51,7 +51,7 @@ Inicie o servidor
 1. Para abrir a aplicação no navegador, basta clicar no link da primeira opção <b>"Local"</b> com a tecla CTRL pressionada. 
 <br> 
 
-![image](https://github.com/Henriqueggperes/coluna_reta-client/blob/main/src/assets/img/serverReact.png)
+![image](https://github.com/Kevenfz/TesteTec_ViaVarejo-BlueEdTech/blob/main/src/assets/serverReact.png)
 
 
 ## Stack utilizada ⚙
